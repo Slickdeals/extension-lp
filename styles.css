@@ -1,0 +1,63 @@
+body {
+	font-size: 16px;
+	font-family: 'Inter', Arial, sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 1.25rem;
+	color: #333333;
+}
+
+.modal {
+	display: flex;
+	flex-flow: column wrap;
+	height: 100%;
+	min-width: 22.5rem;
+	min-height: 21.063;
+	max-width: 22.5rem;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	padding: 1.25rem;
+	box-sizing: border-box;
+	margin: auto;
+}
+.modal__logo {
+	align-self: flex-start;
+	width: 1.563rem;
+	height: 1.563rem;
+	margin-bottom: 0.313rem;
+}
+.modal__animation {
+	width: 8.313rem;
+	height: 6.25rem;
+}
+.modal__text {
+	font-size: 0.875rem;
+	color: #858585;
+	margin-bottom: 0.813rem;
+	margin-top: 0.813rem;
+	text-align: center;
+}
+.btn {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 0.188rem;
+	font-size: 1rem;
+	cursor: pointer;
+	outline: none;
+	transition: 0.3s;
+	font-weight: 700;
+}
+.btn__cta {
+	width: 18.625rem;
+	line-height: 2.813rem;
+	height: 2.813rem;
+	background-color: #277bb8;
+	color: #ffffff;
+}
