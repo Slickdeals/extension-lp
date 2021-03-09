@@ -14,6 +14,13 @@
 		<link rel="icon" href="assets/favicon.ico" />
 		<link rel="stylesheet" href="styles.css" />
 		<title>Slickdeals Allow List</title>
+		<script>
+			document.addEventListener('click', (event) => {
+				if (event.target.id === 'openOptions') {
+					window.close();
+				}
+			});
+		</script>
 	</head>
 	<body>
 		<div class="modal">
@@ -71,8 +78,8 @@
 			</div>
 			<div class="modal__footer">
 				<a
+					id="openOptions"
 					class="btn btn__cta"
-					onClick="javascript: window.close"
 					href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fslickdeals.net%2Fattachment%2Fextension%2Fallowlist.txt&amp;title=Slickdeals%20Smarter%20Shopping"
 				>
 					Open Ad Blocker Options
